@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title><!--(auto-fill by runme.js--></title>
+
+    <!-- ChiliPeppr is based on bootstrap CSS. -->
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <!-- Customized version of require.js for ChiliPeppr. Please see require.js docs for how
+    ChiliPeppr's dependency system works as it's based on require.js. -->
+    <script type='text/javascript' src="//i2dcui.appspot.com/js/require.js"></script>
+
+    <!-- widget.css DON'T REMOVE -->
+    <style type='text/css'>
+        /* widget.css will get inlined here by runme.js. don't remove this comment or inlining will fail. */
+    </style>
+    <link rel="stylesheet" type="text/css" href="widget.css">
+    <!-- DON'T REMOVE end widget.css -->
+
+    <!-- widget.js DON'T REMOVE -->
+    <script type='text/javascript'>
+        //<![CDATA[
+        /* widget.js will get inlined here by runme.js. don't remove this comment or inlining will fail. */
+        //]]>
+    </script>
+    <script type='text/javascript' src="widget.js"></script>
+    <!-- DON'T REMOVE end widget.js -->
+
+</head>
+
+<body>
+
+    <!--Put HTML Contents of Widget Here-->
+    <div id="com-chilipeppr-widget-xyz" class="panel panel-default">
+        <div id="com-chilipeppr-widgetholder-wcs" style="position: absolute;left:-80px;top:10px;"></div>
+        <div class="panel-heading">
+            <div class="btn-group pull-left" style="margin-left:-6px;padding-right:6px;">
+                <button type="button" class="btn btn-xs btn-default btnToggleShowWcs" data-delay="500" data-animation="true" data-placement="auto" data-container="body" data-trigger="hover" data-title="Show Work Coordinate System" data-content="Open up the WCS widget to be able to switch work coordinate systems easily or see which layer you're on.">
+                    <svg width="18px" height="18px" viewbox="0 0 16 16" style="margin-bottom:-5px;" id="svg7248">
+                        <g id="layer1">
+                            <path d="m 8.062054,9.1535644 c 1.941557,1.1209616 3.883115,2.2419176 5.824672,3.3628786 -1.929436,1.113962 -3.858868,2.227928 -5.7883047,3.341891 C 6.1568636,14.737378 4.2153064,13.616421 2.2737492,12.49546 4.2031855,11.381494 6.1326177,10.267531 8.062054,9.1535644 z"
+                            id="rect5199" style="fill:#7d7d7d;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.0389093;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+                            <path d="M 7.9617522,6.2482783 C 9.0250831,6.862191 10.088408,7.4761039 11.151734,8.0900117 10.095045,8.7000964 9.0383569,9.3101809 7.9816736,9.9202555 6.9183482,9.3063476 5.8550218,8.6924349 4.791692,8.0785221 5.8483748,7.4684424 6.9050638,6.8583578 7.9617522,6.2482783 z"
+                            id="rect4468" style="fill:#7d7d7d;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.05283081;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+                            />
+                            <path d="M 8.0620637,0.14166344 C 10.00362,1.2626219 11.945177,2.3835803 13.886735,3.5045388 11.957301,4.6185031 10.027867,5.7324674 8.0984326,6.8464317 6.1568757,5.7254733 4.2153187,4.6045148 2.2737619,3.4835566 4.2031959,2.3695921 6.1326297,1.2556277 8.0620637,0.14166344 z"
+                            id="rect4482" style="fill:#7d7d7d;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.0389093;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+                            <path d="m 825.95441,412.99112 c 115.23809,0 230.47619,0 345.71429,0 0,114.51869 0,229.03737 0,343.55606 -115.2381,0 -230.4762,0 -345.71429,0 0,-114.51869 0,-229.03737 0,-343.55606 z" transform="matrix(0.01684822,0.00972733,-0.0168482,0.00972736,1.1043589,-11.871067)"
+                            style="fill:#a2a2a2;fill-opacity:0;fill-rule:evenodd;stroke:none" />
+                            <path d="m 2.2846517,3.7975423 c 0,2.8872136 0,5.7744323 0,8.6616457" id="pathLeft" style="fill:none;stroke:#000000;stroke-width:0.435;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.435, 0.435;stroke-dashoffset:0"
+                            />
+                            <path d="m 13.886938,3.8292167 c 0,2.8977753 0,5.7955505 0,8.6933263" id="pathRight" style="fill:none;stroke:#000000;stroke-width:0.435;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.435, 0.435;stroke-dashoffset:0"
+                            />
+                        </g>
+                    </svg>
+                </button>
+            </div>
+            <div class="btn-toolbar pull-right" role="toolbar" data-style="position:absolute;right:0px;top:0px;padding:10px 15px;">
+                <div class="btn-group plannerpause hidden" data-toggle="popover" data-content="This indicator turns orange when we're being asked to pause our sending of commands to the CNC controller so we don't overfill the buffer."> <span disabled="true" class="plannerpauseindicator glyphicon glyphicon glyphicon-time btn btn-sm"></span>
+
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-xs btn-default showhidemDRO" data-delay="500" data-animation="true" data-placement="auto" data-container="body" data-trigger="hover" data-title="Toggle Machine DRO" data-content="Toggle visibility of axes readouts that show machine coordinates."><span class="glyphicon glyphicon-screenshot"></span>
+
+                    </button>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-xs btn-default btnInMm" data-delay="500" data-animation="true" data-placement="auto" data-container="body" data-trigger="hover" data-title="Toggle between in and mm" data-content="Send G20 or G21 to the controller to switch between in and mm."><span style="font-size:8px;">in / mm</span>
+
+                    </button>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-xs btn-default hidden btnToggleShowTouchJog" data-delay="500" data-animation="true" data-placement="auto" data-container="body" data-trigger="hover" data-title="Show Touch/Scroll/Mouse Jog" data-content="View the touch/scroll/mouse jog area.">
+                        <svg width="18px" height="18px" viewBox="0 0 16 15" style="margin-bottom:-5px;">
+                            <g id="layer1" inkscape:label="Layer 1" inkscape:groupmode="layer">
+                                <rect style="fill:#c7c7c7;fill-opacity:1" id="rect2995" width="11.895755" height="7.6640639" x="-7.9218755" y="8.1015425" transform="matrix(0.80452054,-0.59392483,0.80452054,0.59392483,0,0)" />
+                                <path style="fill:#000000;fill-opacity:1;stroke:none" d="M 12.012025,5.1134737 9.0594827,5.1513007 12.012026,7.369192 z" id="path4975" inkscape:connector-curvature="0" sodipodi:nodetypes="cccc" />
+                                <rect transform="matrix(0.80452054,-0.59392483,0.80452054,0.59392483,0,0)" y="11.336672" x="-6.1134734" height="0.98116386" width="1.5229107" id="rect4987" style="fill:#000000;fill-opacity:1" />
+                                <rect style="fill:#000000;fill-opacity:1" id="rect4989" width="1.5229107" height="0.98116386" x="-3.4123509" y="11.248804" transform="matrix(0.80452054,-0.59392483,0.80452054,0.59392483,0,0)" />
+                                <rect transform="matrix(0.80452054,-0.59392483,0.80452054,0.59392483,0,0)" y="11.224115" x="-1.1307598" height="0.98116386" width="1.5229107" id="rect4991" style="fill:#000000;fill-opacity:1" />
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-xs btn-default showhideaaxis" data-delay="500" data-animation="true" data-placement="auto" data-container="body" data-trigger="hover" data-title="Show A Axis" data-content="View the A Axis in this widget.">
+                        <!-- <span class="glyphicon" style=""> -->
+                        <svg width="18px" height="18px" viewBox="0 0 15 15" style="margin-bottom:-5px;">
+                            <g transform="translate(0,-1)" id="layer1">
+                                <rect width="9.4103031" height="8.1495714" x="5.4276471" y="10.471354" transform="matrix(0.86602641,-0.49999826,0,1,0,0)" id="rect3833" style="fill:#f2f2f2;fill-opacity:1" />
+                                <path d="m 1.2047429,5.7539288 3.4930048,2.0050654 0,8.1495718 -3.4930048,-2.005124 z" id="rect3843" style="fill:#cccccc;fill-opacity:1" />
+                                <path d="M 1.2065082,5.751951 9.3485287,1.1046795 12.837494,3.111665 4.6954743,7.7589365 z" id="rect3845" style="fill:#e6e6e6;fill-opacity:1" />
+                                <g transform="matrix(0.72698276,-0.41972171,0,0.72698276,1.9959922,6.7024392)" id="text3847" style="font-size:12.23077774px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+                                    <path d="m 5.3885789,13.508963 3.3622695,-8.7550395 1.2481604,0 3.5832352,8.7550395 -1.319825,0 -1.021222,-2.651595 -3.6608723,0 -0.9615015,2.651595 z m 2.5261812,-3.5951802 2.9681139,0 L 9.9691485,7.4891267 C 9.6904481,6.7525795 9.4834169,6.1474114 9.3480543,5.6736206 9.2365721,6.2350015 9.079308,6.7923932 8.8762616,7.3457973 z"
+                                    id="path3852" />
+                                </g>
+                                <g transform="matrix(1.1671134,0,0,1.1671134,-4.6139988,-2.1092078)" id="text3854" style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                                /></g>
+                        </svg>
+                        <!-- </span> -->
+                    </button>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-xs btn-default view-small"><span class="glyphicon" style="font-size:8px;">S</span>
+
+                    </button>
+                    <button type="button" class="btn btn-xs btn-default view-large active"><span class="glyphicon">L</span>
+
+                    </button>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-xs btn-default hidebody"><span class="glyphicon glyphicon-chevron-up"></span>
+
+                    </button>
+                </div>
+                <div class="btn-group">
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>
+
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                            <li><a href="#" class="xyz-showa">Show/Hide A Axis</a>
+
+                            </li>
+                            <!-- <li class="divider"></li>
+                    <li role="presentation" class="dropdown-header fork-name"></li>
+                    <li><a href="" target="_blank" id="com-chilipeppr-widget-xyz-tbar-standalone">View Widget Standalone</a></li>
+                    <li><a href="" target="_blank" id="com-chilipeppr-widget-xyz-tbar-fork">Fork Widget</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div> <span class="panel-title" data-toggle="popover">Axes</span>
+
+        </div>
+        <div id="com-chilipeppr-widget-xyz-body" class="panel-body">
+            <div class="container-fluid">
+                <!-- X -->
+                <div id="com-chilipeppr-widget-xyz-x" class="row">
+                    <!-- Label -->
+                    <div class="col col-xs-3" style="position:relative;">
+                        <div class="btn-group com-chilipeppr-xyz-menu">
+                            <button type="button" class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span>
+
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation" class="dropdown-header">3rd layer coordinates: G92
+                                    <br/>Temporary offset not saved to EEPROM. G92 is forgotten when a cycle end (M2 or M30) occurs.</li>
+                                <li><a href="">Zero Out Temporary X Axis (G92 X0)</a>
+
+                                </li>
+                                <li><a href="">Un-Zero Out Temporary X Axis (G92.1 X0)</a>
+
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation" class="dropdown-header">2nd layer coordinates: (<span class="com-chilipeppr-widget-xyz-coords">Gxx</span>) is currently active.</li>
+                                <li><a href="">Go To Work Zero On X Axis (G0 X0)</a>
+
+                                </li>
+                                <li><a href="">Zero Out Work X Axis (G10 L2 Pn Xn)</a>
+
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation" class="dropdown-header">1st layer coordinates: G53
+                                    <br/>Absolute physical machine coordinates</li>
+                                <li><a href="">Go To Machine Zero On X Axis (G53 G0 X0)</a>
+
+                                </li>
+                                <li><a href="">Zero Out machine X Axis (G28.3 X0)</a>
+
+                                </li>
+                                <li><a href="">Home Machine X Axis (G28.2 X0) <span class="xyz-limitswitch">Limit Switch required</span></a>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-label-well flatbottom">
+                            <h2 class="com-chilipeppr-xyz-label">X</h2>
+
+                        </div>
+                    </div>
+                    <!-- Value -->
+                    <div class="col col-xs-9">
+                        <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-pos-well flatbottom" data-axis="x">
+                            <!-- <button class="btn btn-xs btn-default xyz-pencil"><span class="glyphicon glyphicon-pencil"></span></button> -->
+                            <!-- <input type="number" class="form-control xyz-number" placeholder="Enter New Coord"> -->
+                            <h2 class="com-chilipeppr-xyz-pos"><table><tr><td style="width:70px;text-align:right;"><span class="xyz-negpos xyz-dimmed" >-</span><span class="xyz-intgray xyz-dimmed">00</span><span class="xyz-intblack">0</span></td><td>.<span class="xyz-decimal">000</span></td></tr></table></h2>
+
+                            <div class="com-chilipeppr-xyz-dim">mm</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Y -->
+                <div id="com-chilipeppr-widget-xyz-y" class="row">
+                    <!-- Label -->
+                    <div class="col col-xs-3" style="position:relative;">
+                        <div class="btn-group com-chilipeppr-xyz-menu">
+                            <button type="button" class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span>
+
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation" class="dropdown-header">3rd layer coordinates: G92
+                                    <br/>Temporary offset not saved to EEPROM. G92 is forgotten when a cycle end (M2 or M30) occurs.</li>
+                                <li><a href="">Zero Out Temporary Y Axis (G92 Y0)</a>
+
+                                </li>
+                                <li><a href="">Un-Zero Out Temporary Y Axis (G92.1 Y0)</a>
+
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation" class="dropdown-header">2nd layer coordinates: (<span class="com-chilipeppr-widget-xyz-coords">Gxx</span>) is currently active.</li>
+                                <li><a href="">Go To Work Zero On Y Axis (G0 Y0)</a>
+
+                                </li>
+                                <li><a href="">Zero Out Work Y Axis (G10 L2 Pn Yn)</a>
+
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation" class="dropdown-header">1st layer coordinates: G53
+                                    <br/>Absolute physical machine coordinates</li>
+                                <li><a href="">Go To Machine Zero On Y Axis (G53 G0 Y0)</a>
+
+                                </li>
+                                <li><a href="">Zero Out machine Y Axis (G28.3 Y0)</a>
+
+                                </li>
+                                <li><a href="">Home Machine Y Axis (G28.2 Y0) <span class="xyz-limitswitch">Limit Switch required</span></a>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-label-well flatbottom flattop">
+                            <h2 class="com-chilipeppr-xyz-label">Y</h2>
+
+                        </div>
+                    </div>
+                    <!-- Value -->
+                    <div class="col col-xs-9">
+                        <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-pos-well flatbottom flattop" data-axis="y">
+                            <h2 class="com-chilipeppr-xyz-pos"><table><tr><td style="width:70px;text-align:right;"><span class="xyz-negpos xyz-dimmed" >-</span><span class="xyz-intgray xyz-dimmed">00</span><span class="xyz-intblack">0</span></td><td>.<span class="xyz-decimal">000</span></td></tr></table></h2>
+
+                            <div class="com-chilipeppr-xyz-dim">mm</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Z -->
+                <div id="com-chilipeppr-widget-xyz-z" class="row">
+                    <!-- Label -->
+                    <div class="col col-xs-3" style="position:relative;">
+                        <div class="btn-group com-chilipeppr-xyz-menu">
+                            <button type="button" class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span>
+
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation" class="dropdown-header">3rd layer coordinates: G92
+                                    <br/>Temporary offset not saved to EEPROM. G92 is forgotten when a cycle end (M2 or M30) occurs.</li>
+                                <li><a href="">Zero Out Temporary Z Axis (G92 Z0)</a>
+
+                                </li>
+                                <li><a href="">Un-Zero Out Temporary Z Axis (G92.1 Z0)</a>
+
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation" class="dropdown-header">2nd layer coordinates: (<span class="com-chilipeppr-widget-xyz-coords">Gxx</span>) is currently active.</li>
+                                <li><a href="">Go To Work Zero On Z Axis (G0 Z0)</a>
+
+                                </li>
+                                <li><a href="">Zero Out Work Z Axis (G10 L2 Pn Zn)</a>
+
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation" class="dropdown-header">1st layer coordinates: G53
+                                    <br/>Absolute physical machine coordinates</li>
+                                <li><a href="">Go To Machine Zero On Z Axis (G53 G0 Z0)</a>
+
+                                </li>
+                                <li><a href="">Zero Out machine Z Axis (G28.3 Z0)</a>
+
+                                </li>
+                                <li><a href="">Home Machine Z Axis (G28.2 Z0) <span class="xyz-limitswitch">Limit Switch required</span></a>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-label-well flattop">
+                            <h2 class="com-chilipeppr-xyz-label">Z</h2>
+
+                        </div>
+                    </div>
+                    <!-- Value -->
+                    <div class="col col-xs-9">
+                        <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-pos-well flattop" data-axis="z">
+                            <h2 class="com-chilipeppr-xyz-pos"><table><tr><td style="width:70px;text-align:right;"><span class="xyz-negpos xyz-dimmed" >-</span><span class="xyz-intgray xyz-dimmed">00</span><span class="xyz-intblack">0</span></td><td>.<span class="xyz-decimal">000</span></td></tr></table></h2>
+
+                            <div class="com-chilipeppr-xyz-dim">mm</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- A -->
+                <div id="com-chilipeppr-widget-xyz-a" class="row hidden">
+                    <!-- Label -->
+                    <div class="col col-xs-3" style="position:relative;">
+                        <div class="btn-group com-chilipeppr-xyz-menu">
+                            <button type="button" class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span>
+
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation" class="dropdown-header">3rd layer coordinates: G92
+                                    <br/>Temporary offset not saved to EEPROM. G92 is forgotten when a cycle end (M2 or M30) occurs.</li>
+                                <li><a href="">Zero Out Temporary A Axis (G92 A0)</a>
+
+                                </li>
+                                <li><a href="">Un-Zero Out Temporary A Axis (G92.1 A0)</a>
+
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation" class="dropdown-header">2nd layer coordinates: (<span class="com-chilipeppr-widget-xyz-coords">Gxx</span>) is currently active.</li>
+                                <li><a href="">Go To Work Zero On A Axis (G0 A0)</a>
+
+                                </li>
+                                <li><a href="">Zero Out Work A Axis (G10 L2 Pn An)</a>
+
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation" class="dropdown-header">1st layer coordinates: G53
+                                    <br/>Absolute physical machine coordinates</li>
+                                <li><a href="">Go To Machine Zero On A Axis (G53 G0 A0)</a>
+
+                                </li>
+                                <li><a href="">Zero Out machine A Axis (G28.3 A0)</a>
+
+                                </li>
+                                <li><a href="">Home Machine A Axis (G28.2 A0) <span class="xyz-limitswitch">Limit Switch required</span></a>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-label-well">
+                            <h2 class="com-chilipeppr-xyz-label">A</h2>
+
+                        </div>
+                    </div>
+                    <!-- Value -->
+                    <div class="col col-xs-9">
+                        <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-pos-well" data-axis="a">
+                            <h2 class="com-chilipeppr-xyz-pos"><table><tr><td style="width:70px;text-align:right;"><span class="xyz-negpos xyz-dimmed" >-</span><span class="xyz-intgray xyz-dimmed">00</span><span class="xyz-intblack">0</span></td><td>.<span class="xyz-decimal">000</span></td></tr></table></h2>
+
+                            <div class="com-chilipeppr-xyz-dim">&deg;</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- B / E1 -->
+                <div id="com-chilipeppr-widget-xyz-b" class="row hidden">
+                    <!-- Label -->
+                    <div class="col col-xs-3" style="position:relative;">
+                        <div class="btn-group com-chilipeppr-xyz-menu">
+                            <button type="button" class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span>
+
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation" class="dropdown-header">3rd layer coordinates: G92
+                                    <br/>Temporary offset not saved to EEPROM. G92 is forgotten when a cycle end (M2 or M30) occurs.</li>
+                                <li><a href="">Zero Out Temporary B Axis (G92 B0)</a>
+
+                                </li>
+                                <li><a href="">Un-Zero Out Temporary B Axis (G92.1 B0)</a>
+
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation" class="dropdown-header">2nd layer coordinates: (<span class="com-chilipeppr-widget-xyz-coords">Gxx</span>) is currently active.</li>
+                                <li><a href="">Go To Work Zero On B Axis (G0 B0)</a>
+
+                                </li>
+                                <li><a href="">Zero Out Work B Axis (G10 L2 Pn Bn)</a>
+
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation" class="dropdown-header">1st layer coordinates: G53
+                                    <br/>Absolute physical machine coordinates</li>
+                                <li><a href="">Go To Machine Zero On B Axis (G53 G0 B0)</a>
+
+                                </li>
+                                <li><a href="">Zero Out machine B Axis (G28.3 B0)</a>
+
+                                </li>
+                                <li><a href="">Home Machine B Axis (G28.2 B0) <span class="xyz-limitswitch">Limit Switch required</span></a>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-label-well">
+                            <h2 class="com-chilipeppr-xyz-label">B</h2>
+
+                        </div>
+                    </div>
+                    <!-- Value -->
+                    <div class="col col-xs-9">
+                        <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-pos-well">
+                            <h2 class="com-chilipeppr-xyz-pos"><table><tr><td style="width:70px;text-align:right;"><span class="xyz-negpos xyz-dimmed" >-</span><span class="xyz-intgray xyz-dimmed">00</span><span class="xyz-intblack">0</span></td><td>.<span class="xyz-decimal">000</span></td></tr></table></h2>
+
+                            <div class="com-chilipeppr-xyz-dim">&deg;</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- C / E2 -->
+                <div id="com-chilipeppr-widget-xyz-c" class="row hidden">
+                    <!-- Label -->
+                    <div class="col col-xs-3" style="position:relative;">
+                        <div class="btn-group com-chilipeppr-xyz-menu">
+                            <button type="button" class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span>
+
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation" class="dropdown-header">3rd layer coordinates: G92
+                                    <br/>Temporary offset not saved to EEPROM. G92 is forgotten when a cycle end (M2 or M30) occurs.</li>
+                                <li><a href="">Zero Out Temporary C Axis (G92 C0)</a>
+
+                                </li>
+                                <li><a href="">Un-Zero Out Temporary C Axis (G92.1 C0)</a>
+
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation" class="dropdown-header">2nd layer coordinates: (<span class="com-chilipeppr-widget-xyz-coords">Gxx</span>) is currently active.</li>
+                                <li><a href="">Go To Work Zero On C Axis (G0 C0)</a>
+
+                                </li>
+                                <li><a href="">Zero Out Work C Axis (G10 L2 Pn Cn)</a>
+
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation" class="dropdown-header">1st layer coordinates: G53
+                                    <br/>Absolute physical machine coordinates</li>
+                                <li><a href="">Go To Machine Zero On C Axis (G53 G0 C0)</a>
+
+                                </li>
+                                <li><a href="">Zero Out machine C Axis (G28.3 C0)</a>
+
+                                </li>
+                                <li><a href="">Home Machine C Axis (G28.2 C0) <span class="xyz-limitswitch">Limit Switch required</span></a>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-label-well">
+                            <h2 class="com-chilipeppr-xyz-label">C</h2>
+
+                        </div>
+                    </div>
+                    <!-- Value -->
+                    <div class="col col-xs-9">
+                        <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-pos-well">
+                            <h2 class="com-chilipeppr-xyz-pos"><table><tr><td style="width:70px;text-align:right;"><span class="xyz-negpos xyz-dimmed" >-</span><span class="xyz-intgray xyz-dimmed">00</span><span class="xyz-intblack">0</span></td><td>.<span class="xyz-decimal">000</span></td></tr></table></h2>
+
+                            <div class="com-chilipeppr-xyz-dim">&deg;</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+            </div>
+        </div>
+        <div id="com-chilipeppr-widget-xyz-ftr" tabindex="1" class="panel-footer" style="padding:2px;padding-bottom:0px;">
+            <div class="com-chilipeppr-widget-xyz-buttonarray hiddenx" style="border:0px solid green;">
+                <table style="border:0px solid red;">
+                    <tr valign="top">
+                        <td class="col xcol-xs-2" style="border:0px red solid;" rowspan="2">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-xs btn-default joggotozerow" data-toggle="popover" data-placement="top" data-title="Rapid to Zero Position, all axes, current work coordinate" data-content="G0 X0 Y0 Z0 A0<br/>This moves all axes to zero in current work coordinate system; individual moves available via axis drop down menus above."
+                                data-html="true" data-delay="800" data-trigger="hover" data-container="body">Go To <span class="com-chilipeppr-widget-xyz-coords">Gxx</span> Zero</button>
+                                <button class="btn btn-xs btn-default jogzerooutw " id="jogzerooutw" data-toggle="popover" data-placement="top" data-title="Set Active Coordinate Zero Here" data-content="Sets active work coordinate system zero to current machine position." data-html="true"
+                                data-delay="800" data-trigger="hover" data-container="body">Set <span class="com-chilipeppr-widget-xyz-coords">Gxx</span> Zero</button>
+                                <button class="btn btn-xs btn-default joggotozerom" data-toggle="popover" data-placement="top" data-title="Rapid to Zero Position, all axes, absolute machine coordinate" data-content="G53 G0 X0 Y0 Z0 A0<br/>This moves all axes to zero in absolute machine coordinate system; individual moves available via axis drop down menus above."
+                                data-html="true" data-delay="800" data-trigger="hover" data-container="body" style="background-color:#eef1ee">Go To Mch Zero</button>
+                                <button class="btn btn-xs btn-default jogzerooutm " data-toggle="popover" data-placement="top" data-title="Set Machine Zero on All Axes" data-content="G28.3 X0 Y0 Z0 A0<br/>Sets hardware zero (G53) to the current position.  Useful if machine does not have limit switches."
+                                data-html="true" data-delay="800" data-trigger="hover" data-container="body" style="background-color:#eef1ee">Set Mch Zero</button>
+                                <button class="btn btn-xs btn-default joghomem " data-toggle="popover" data-placement="top" data-title="Homing Sequence" data-content="G28.2 X0 Y0 Z0 A0<br/>Runs homing cycle on all axes. MUST have home/limit switches" data-html="true" data-delay="200"
+                                data-trigger="hover" data-container="body" style="background-color:#eef1ee">Home <span class="glyphicon glyphicon-home"></span> Mch</button>
+                            </div>
+                        </td>
+                        <td class="col xcol-xs-2" style="border:0px green solid;padding-left:4px;">
+                            <div class="btn-group-vertical" style="margin-right:-0px;">
+
+                                <!-- <div class="btn-group">
+                                <button type="button" class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"  style="padding: 3px 2px;" > <span class="caret"></span>
+                            
+                                </button>
+                                <ul class="dropdown-menu xpull-right" role="menu">
+                                    <li role="presentation" class="dropdown-header">Jogging Algorithm</li>
+                                    <li><a href="javascript:" class="alert-info jogviaincr">Jog via Sending Increments then Feedhold</a></li>
+                                    <li><a href="javascript:" class="jogvialongmove">Jog via Sending Single Long Move then Feedhold</a></li>
+                                </ul>
+                            </div> -->
+                                <button id="com-chilipeppr-widget-xyz-jog" class="btn btn-default dbltall" style="padding: 8px 4px;" data-toggle="popover" data-placement="auto" data-title="Jog Shortcut Keys" data-content="X+ : Left Arrow<br>X- : Right Arrow<br>Y+ : Up Arrow<br>Y- : Down Arrow<br>Z+ : Page Up<br>Z- : Page Down<br>Shift : 10x Move By<br>Ctrl (or Alt) : 100x Move By<br>Shift + Ctrl (or Alt) : 1,000x Move By"
+                                data-html="true" data-delay="200" data-trigger="hover" data-container="body"><span class="rotate90">Jog</span>
+                                </button>
+                            </div>
+                        </td>
+                        <td class="col xcol-xs-2" style="border:0px yellow solid;">
+                            <button class="btn btn-default jogxneg dbltall">X
+                                <br/><span class="glyphicon glyphicon-circle-arrow-left"></span>
+
+                            </button>
+                        </td>
+                        <td>
+                            <div class="btn-group-vertical" style="margin-right:-0px;">
+                                <button class="btn btn-default jogy">Y <span class="glyphicon glyphicon-circle-arrow-up"></span>
+                                </button>
+                                <button class="btn btn-default jogyneg ">Y <span class="glyphicon glyphicon-circle-arrow-down"></span>
+                                </button>
+                            </div>
+                        </td>
+                        <td>
+                            <button class="btn btn-default jogx dbltall">X
+                                <br/><span class="glyphicon glyphicon-circle-arrow-right"></span>
+                            </button>
+                        </td>
+                        <td>
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-default jogz ">Z <span class="glyphicon glyphicon-plus-sign"></span>
+                                </button>
+                                <button class="btn btn-default jogzneg ">Z <span class="glyphicon glyphicon-minus-sign"></span>
+                                </button>
+                            </div>
+                        </td>
+                        <td class="xhidden" style="">
+                            <button type="button" class="btn btn-lg btn-default btnShowTouchJog btnToggleShowTouchJog" style="padding:0 10px;">
+                                <svg width="38px" height="38px" viewBox="0 0 16 15" style="margin-bottom:-5px;">
+                                    <g id="layer1" inkscape:label="Layer 1" inkscape:groupmode="layer">
+                                        <rect style="fill:#c7c7c7;fill-opacity:1" id="rect2995" width="11.895755" height="7.6640639" x="-7.9218755" y="8.1015425" transform="matrix(0.80452054,-0.59392483,0.80452054,0.59392483,0,0)" />
+                                        <path style="fill:#000000;fill-opacity:1;stroke:none" d="M 12.012025,5.1134737 9.0594827,5.1513007 12.012026,7.369192 z" id="path4975" inkscape:connector-curvature="0" sodipodi:nodetypes="cccc" />
+                                        <rect transform="matrix(0.80452054,-0.59392483,0.80452054,0.59392483,0,0)" y="11.336672" x="-6.1134734" height="0.98116386" width="1.5229107" id="rect4987" style="fill:#000000;fill-opacity:1" />
+                                        <rect style="fill:#000000;fill-opacity:1" id="rect4989" width="1.5229107" height="0.98116386" x="-3.4123509" y="11.248804" transform="matrix(0.80452054,-0.59392483,0.80452054,0.59392483,0,0)" />
+                                        <rect transform="matrix(0.80452054,-0.59392483,0.80452054,0.59392483,0,0)" y="11.224115" x="-1.1307598" height="0.98116386" width="1.5229107" id="rect4991" style="fill:#000000;fill-opacity:1" />
+                                    </g>
+                                </svg>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="7" style="padding-left:4px;padding-top:2px;">
+                            <div class="btn-group jogincrements-horiz dropup " style="">
+                                <button class="btn btn-default btn-xs jogincr1 hilite">1</button>
+                                <button class="btn btn-default btn-xs jogincrpt1 ">0.1</button>
+                                <button class="btn btn-default btn-xs jogincrpt01 ">0.01</button>
+                                <button class="btn btn-default btn-xs jogincrpt001 ">0.001</button>
+                                <button class="btn btn-default btn-xs jogincrCustomBtn ">Custom <code class="jogincrCustomVal">10</code>
+                                </button>
+                                <button type="button" class="btn btn-xs btn-default dropdown-toggle jogincrCustomDropUpBtn" data-toggle="dropdown" aria-expanded="false"> <span class="caret"></span>
+
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-right jogincrCustomDropUpMenu" role="menu" style="padding:6px 8px;">
+                                    <div class="input-group">
+                                        <input type="number" class="form-control jogincrCustomInput jogincrCustomInput1" value="" placeholder="Custom Move By 1" /> <span class="input-group-btn">
+                                    <button type="button" class="btn btn-default jogincrCustomSet jogincrCustomSet1">Set</button>
+                                </span>
+
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="number" class="form-control jogincrCustomInput jogincrCustomInput2" value="" placeholder="Custom Move By 2" /> <span class="input-group-btn">
+                                    <button type="button" class="btn btn-default jogincrCustomSet jogincrCustomSet2">Set</button>
+                                </span>
+
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="number" class="form-control jogincrCustomInput jogincrCustomInput3" value="" placeholder="Custom Move By 3" /> <span class="input-group-btn">
+                                    <button type="button" class="btn btn-default jogincrCustomSet jogincrCustomSet3">Set</button>
+                                </span>
+
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="number" class="form-control jogincrCustomInput jogincrCustomInput4" value="" placeholder="Custom Move By 4" /> <span class="input-group-btn">
+                                    <button type="button" class="btn btn-default jogincrCustomSet jogincrCustomSet4">Set</button>
+                                </span>
+
+                                    </div>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="com-chilipeppr-widget-xyz-machinecoords" class="panel-body">
+                <div class="container-fluid">
+                    <!-- mX -->
+                    <div id="com-chilipeppr-widget-xyz-mx" class="row hidden">
+                        <!-- Label -->
+                        <div class="col col-xs-3" style="position:relative;">
+                            <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-label-well flatbottom flattop" style="background-color:#eef1ee">
+                                <h2 class="com-chilipeppr-xyz-label">m&nbsp;X&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+
+                            </div>
+                        </div>
+                        <!-- Value -->
+                        <div class="col col-xs-9">
+                            <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-pos-well flatbottom flattop" style="background-color:#eef1ee">
+                                <h2 class="com-chilipeppr-xyz-pos"><table><tr><td style="width:70px;text-align:right;"><span class="xyz-negpos xyz-dimmed" >-</span><span class="xyz-intgray xyz-dimmed">00</span><span class="xyz-intblack">0</span></td><td>.<span class="xyz-decimal">000</span></td></tr></table></h2>
+
+                                <div class="com-chilipeppr-xyz-dim">mm</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- mY -->
+                    <div id="com-chilipeppr-widget-xyz-my" class="row hidden">
+                        <!-- Label -->
+                        <div class="col col-xs-3" style="position:relative;">
+                            <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-label-well flatbottom flattop" style="background-color:#eef1ee">
+                                <h2 class="com-chilipeppr-xyz-label">m&nbsp;Y&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+
+                            </div>
+                        </div>
+                        <!-- Value -->
+                        <div class="col col-xs-9">
+                            <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-pos-well flatbottom flattop" style="background-color:#eef1ee">
+                                <h2 class="com-chilipeppr-xyz-pos"><table><tr><td style="width:70px;text-align:right;"><span class="xyz-negpos xyz-dimmed" >-</span><span class="xyz-intgray xyz-dimmed">00</span><span class="xyz-intblack">0</span></td><td>.<span class="xyz-decimal">000</span></td></tr></table></h2>
+
+                                <div class="com-chilipeppr-xyz-dim">mm</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- mZ -->
+                    <div id="com-chilipeppr-widget-xyz-mz" class="row hidden">
+                        <!-- Label -->
+                        <div class="col col-xs-3" style="position:relative;">
+                            <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-label-well flatbottom flattop" style="background-color:#eef1ee">
+                                <h2 class="com-chilipeppr-xyz-label">m&nbsp;Z&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+
+                            </div>
+                        </div>
+                        <!-- Value -->
+                        <div class="col col-xs-9">
+                            <div class="well com-chilipeppr-xyz-well com-chilipeppr-xyz-pos-well flatbottom flattop" style="background-color:#eef1ee">
+                                <h2 class="com-chilipeppr-xyz-pos"><table><tr><td style="width:70px;text-align:right;"><span class="xyz-negpos xyz-dimmed" >-</span><span class="xyz-intgray xyz-dimmed">00</span><span class="xyz-intblack">0</span></td><td>.<span class="xyz-decimal">000</span></td></tr></table></h2>
+
+                                <div class="com-chilipeppr-xyz-dim">mm</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end -->
+                </div>
+            </div>
+            <div class="touchpad-overlay hidden" style="margin-top:4px;">
+                <canvas style="border:1px dashed silver;border-radius: 4px;"></canvas>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
