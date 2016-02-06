@@ -591,7 +591,11 @@ cpdefine("inline:com-chilipeppr-widget-xyz", ["chilipeppr_ready", "jquerycookie"
             var btnEl = $("#com-chilipeppr-widget-xyz .btnToggleShowWcs");
             btnEl.click(this.toggleWcs.bind(this));
             btnEl.popover();
-            chilipeppr.load("#com-chilipeppr-widgetholder-wcs", "http://fiddle.jshell.net/Danal/4ete4691/show/light/", function () {
+            chilipeppr.load(
+                "#com-chilipeppr-widgetholder-wcs", 
+                //"http://fiddle.jshell.net/Danal/4ete4691/show/light/",
+                "http://raw.githubusercontent.com/chilipeppr/widget-wcs/master/auto-generated-widget.html",
+                function () {
                 cprequire(["inline:com-chilipeppr-widget-wcs"], function (wcs) {
                     console.log("test running of " + wcs.id);
                     wcs.init();
