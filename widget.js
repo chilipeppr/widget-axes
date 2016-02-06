@@ -157,6 +157,7 @@ cprequire_test(["inline:com-chilipeppr-widget-xyz"], function (xyz) {
         
     }, 5000);
     */
+    $('body').css("padding", "20px");
 
 } /*end_test*/ );
 
