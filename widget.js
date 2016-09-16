@@ -1,3 +1,4 @@
+/* global macro chilipeppr THREE $ */
 // Test this element. This code is auto-removed by the chilipeppr.load()
 cprequire_test(["inline:com-chilipeppr-widget-xyz"], function (xyz) {
     console.log("test running of " + xyz.id);

@@ -239,6 +239,7 @@
 
     <script type='text/javascript'>
     //<![CDATA[
+/* global macro chilipeppr THREE $ */
 // Test this element. This code is auto-removed by the chilipeppr.load()
 cprequire_test(["inline:com-chilipeppr-widget-xyz"], function (xyz) {
     console.log("test running of " + xyz.id);
@@ -405,10 +406,10 @@ cprequire_test(["inline:com-chilipeppr-widget-xyz"], function (xyz) {
 cpdefine("inline:com-chilipeppr-widget-xyz", ["chilipeppr_ready", "jquerycookie"], function () {
     return {
         id: "com-chilipeppr-widget-xyz",
-        url: "http://raw.githubusercontent.com/chilipeppr/widget-axes/master/auto-generated-widget.html",       // The final URL of the working widget as a single HTML file with CSS and Javascript inlined. You can let runme.js auto fill this if you are using Cloud9.
-        fiddleurl: "http://ide.c9.io/chilipeppr/widget-axes", // The edit URL. This can be auto-filled by runme.js in Cloud9 if you'd like, or just define it on your own to help people know where they can edit/fork your widget
-        githuburl: "http://github.com/chilipeppr/widget-axes", // The backing github repo
-        testurl: "http://widget-axes-chilipeppr.c9users.io/widget.html",   // The standalone working widget so can view it working by itself
+        url: "http://raw.githubusercontent.com/xpix/widget-axes/master/auto-generated-widget.html",       // The final URL of the working widget as a single HTML file with CSS and Javascript inlined. You can let runme.js auto fill this if you are using Cloud9.
+        fiddleurl: "http://ide.c9.io/xpix/widget-axis", // The edit URL. This can be auto-filled by runme.js in Cloud9 if you'd like, or just define it on your own to help people know where they can edit/fork your widget
+        githuburl: "http://github.com/xpix/widget-axes", // The backing github repo
+        testurl: "http://widget-axis-xpix.c9users.io/widget.html",   // The standalone working widget so can view it working by itself
         name: "Widget / XYZ Axes",
         desc: "The Axes widget shows the XYZA values of the axes of your CNC controller. It also enables you to jog, home, change units, and change Work Coordinate Systems.",
         publish: {},
