@@ -1598,6 +1598,7 @@ cpdefine("inline:com-chilipeppr-widget-xyz", ["chilipeppr_ready", "jquerycookie"
                     cmd += ' A' + (this.lastVal.ma);
                 }
             } else {
+console.log('update', this.lastVal);
                 cmd += 'G10 L2 P' + (this.lastCoords.coordNum - 53) + evt.data.substr(-1).toUpperCase() + (this.lastVal[evt.data]);
             }
             cmd += "\n";
