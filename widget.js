@@ -391,10 +391,12 @@ cpdefine("inline:com-chilipeppr-widget-xyz", ["chilipeppr_ready", "jquerycookie"
             if (btnParentWidth > widgetWidth) {
                 console.log("it appears the btn is being clipped");
                 btnEl.css('visibility', 'hidden');
+                btnEl.addClass("hidden");
                 //apply class1
             } else {
                 //apply class2
                 btnEl.css('visibility', 'visible');
+                btnEl.removeClass("hidden");
                 console.log("it appears the btn is NOT being clipped");
             }
         },
